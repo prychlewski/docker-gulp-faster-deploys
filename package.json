@@ -1,0 +1,23 @@
+{
+  "name": "gulp-zero-downtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-string-replace": "^0.4.0",
+    "gulp-util": "^3.0.8",
+    "mkdirp": "^0.5.1",
+    "run-sequence": "^2.2.0",
+    "vinyl-fs": "^3.0.0",
+    "vinyl-paths": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

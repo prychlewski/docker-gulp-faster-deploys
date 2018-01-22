@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  gulp:
+    image: rychu/gulp
+    build:
+      context: .
+      dockerfile: ./docker/gulp/Dockerfile
+    volumes:
+      - $PWD:/opt
+    command: bash -c "npm install && gulp prod"

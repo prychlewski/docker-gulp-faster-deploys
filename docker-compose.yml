@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./build:/var/www/html/build
+      - ./builds:/var/www/html/builds
+      - ./docker/dev/conf.d:/etc/nginx/conf.d
